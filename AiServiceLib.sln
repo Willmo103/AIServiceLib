@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIServiceLib.Core", "AiServiceLib.Core\AIServiceLib.Core.csproj", "{94B868CD-2B9E-4D0F-AADD-A0368EE079FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIServiceLib.Core", "AIServiceLib.Core\AIServiceLib.Core.csproj", "{94B868CD-2B9E-4D0F-AADD-A0368EE079FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIServiceLib.Tests", "AiServiceLib.Tests\AIServiceLib.Tests.csproj", "{1068D477-AAD6-43FB-9AE3-5B55133A22A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIServiceLib.Tests", "AIServiceLib.Tests\AIServiceLib.Tests.csproj", "{1068D477-AAD6-43FB-9AE3-5B55133A22A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
