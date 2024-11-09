@@ -16,6 +16,14 @@ namespace AIServiceLib.Tests
         }
     }
 
+    internal class MockPromptProvider : IPromptProvider
+    {
+        public Task<string> GetPromptAsync(string promptName)
+        {
+            return Task.FromResult("Mock Prompt");
+        }
+    }
+
     public class InterfaceTests
     {
         [Fact]
@@ -23,6 +31,13 @@ namespace AIServiceLib.Tests
         {
             MockAiTask task = new();
             Assert.NotNull(task);
+        }
+
+        [Fact]
+        public void IPromptProviderTest()
+        {
+            MockPromptProvider provider = new();
+            Assert.NotNull(provider);
         }
     }
 }
